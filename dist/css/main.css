@@ -55,9 +55,10 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/project5.jpg);
+      background: url(../img/portfolio.jpg);
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #eece1a;
+      background-size: cover; }
   .menu .nav-item {
     transform: translate3d(50px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -166,7 +167,10 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid;
+    width: 250px;
+    height: 250px;
+    object-fit: cover; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }

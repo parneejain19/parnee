@@ -87,6 +87,9 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
   }
   
   .bio {
